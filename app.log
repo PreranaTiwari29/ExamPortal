@@ -1,0 +1,149 @@
+2022-10-20 00:24:34,060 INFO exam.portal.ExamPortalBackendApplication [restartedMain] Starting ExamPortalBackendApplication using Java 17.0.4.1 on DESKTOP-U572BMR with PID 37768 (C:\javaProject1\Exam-Portal-Backend\target\classes started by hp in C:\javaProject1\Exam-Portal-Backend)
+2022-10-20 00:24:34,069 INFO exam.portal.ExamPortalBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-20 00:24:39,353 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-10-20 00:24:39,354 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-20 00:24:39,592 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-20 00:24:40,365 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-20 00:24:40,583 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-20 00:24:41,185 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-20 00:24:41,566 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-10-20 00:24:42,299 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-10-20 00:24:42,371 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-20 00:24:49,567 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-20 00:24:51,863 INFO exam.portal.ExamPortalBackendApplication [restartedMain] Started ExamPortalBackendApplication in 19.074 seconds (JVM running for 21.997)
+2022-10-20 00:38:00,012 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-20 00:39:52,957 ERROR exam.portal.config.JwtTokenUtil [http-nio-8080-exec-5] JWT expired
+2022-10-20 00:39:52,963 INFO exam.portal.controllers.UserController [http-nio-8080-exec-5] ==== validating user ====
+2022-10-20 00:39:53,240 INFO exam.portal.controllers.UserController [http-nio-8080-exec-5] auth done eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlzcyI6IkFkbWluIiwicm9sZXMiOiJST0xFX0FETUlOIiwiaWF0IjoxNjY2MjA2NTkzLCJleHAiOjE2NjYyOTI5OTN9.XDIqGsVkJ2s9LAoaUehRr9NSDyRlZ17fJ_2RrNCd0bWWa5O9AftxwEETa7kuUcEotR38yPI2HAbIcn0WGSUKCg User [id=1, userid=admin, uname=Administrator, pwd=$2a$10$fckGxDzxRWRtXEUYukhTT.tEeMwWW0yPmKTJEMJKUTF5GJ4.Ylx/C, gender=null, address=null, phone=null, isadmin=true]
+2022-10-20 00:41:10,833 ERROR exam.portal.config.JwtTokenUtil [http-nio-8080-exec-8] JWT expired
+2022-10-20 00:41:21,752 INFO exam.portal.controllers.CategoryController [http-nio-8080-exec-9]  === saving category ===
+2022-10-20 00:41:28,471 ERROR exam.portal.config.JwtTokenUtil [http-nio-8080-exec-10] JWT expired
+2022-10-20 00:41:36,010 INFO exam.portal.controllers.CategoryController [http-nio-8080-exec-1]  === list category ===
+2022-10-20 00:44:14,191 ERROR exam.portal.config.JwtTokenUtil [http-nio-8080-exec-4] JWT expired
+2022-10-20 00:44:29,550 INFO exam.portal.controllers.QuestionController [http-nio-8080-exec-5]  === saving question ===
+2022-10-20 00:44:37,891 ERROR exam.portal.config.JwtTokenUtil [http-nio-8080-exec-6] JWT expired
+2022-10-20 00:44:48,418 INFO exam.portal.controllers.QuestionController [http-nio-8080-exec-7]  === list questions ===
+2022-10-20 00:44:57,653 INFO exam.portal.controllers.QuestionController [http-nio-8080-exec-8]  === list questions ===
+2022-10-20 00:48:18,158 INFO exam.portal.controllers.QuestionController [http-nio-8080-exec-1]  === saving question ===
+2022-10-20 00:48:34,261 INFO exam.portal.controllers.CategoryController [http-nio-8080-exec-2]  === list category ===
+2022-10-20 00:48:44,645 INFO exam.portal.controllers.QuestionController [http-nio-8080-exec-3]  === list questions ===
+2022-10-20 00:50:31,885 ERROR exam.portal.config.JwtTokenUtil [http-nio-8080-exec-6] JWT expired
+2022-10-20 00:50:44,456 ERROR exam.portal.config.JwtTokenUtil [http-nio-8080-exec-7] JWT expired
+2022-10-20 00:52:49,691 ERROR exam.portal.config.JwtTokenUtil [http-nio-8080-exec-9] JWT expired
+2022-10-20 00:52:49,697 INFO exam.portal.controllers.UserController [http-nio-8080-exec-9] ==== validating user ====
+2022-10-20 00:52:49,837 INFO exam.portal.controllers.UserController [http-nio-8080-exec-9] auth done eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYW5zaUBnbWFpbC5jb20iLCJpc3MiOiJBZG1pbiIsInJvbGVzIjoiUk9MRV9VU0VSIiwiaWF0IjoxNjY2MjA3MzY5LCJleHAiOjE2NjYyOTM3Njl9.rb4S5cVrnszDTCDlcQznQ8Nlrb9QNc7skPnK2M-1F-7OWm1OQxX2zyLNdeWaqZjzsbxBGln3KdaYXfYwGe9xTA User [id=2, userid=mansi@gmail.com, uname=Mansi Tiwari, pwd=$2a$10$82Ur83kuL.2GIXiUCY5O3OVTdrriaOhSkfF9FFCAvXrF5rqUDAL.q, gender=female, address=Khandwa, phone=6266840163, isadmin=false]
+2022-10-20 00:53:51,335 ERROR exam.portal.config.JwtTokenUtil [http-nio-8080-exec-2] JWT expired
+2022-10-20 00:54:32,116 ERROR exam.portal.config.JwtTokenUtil [http-nio-8080-exec-3] JWT expired
+2022-10-20 00:54:32,127 INFO exam.portal.controllers.UserController [http-nio-8080-exec-3] ==== validating user ====
+2022-10-20 00:54:32,319 INFO exam.portal.controllers.UserController [http-nio-8080-exec-3] auth done eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlzcyI6IkFkbWluIiwicm9sZXMiOiJST0xFX0FETUlOIiwiaWF0IjoxNjY2MjA3NDcyLCJleHAiOjE2NjYyOTM4NzJ9.kQ969zBue7qB9dQZtOn2Xnm9l0dA5hrKcJk68pzGXNOwUfM7NicwKQRP_QSBm-cDQcXCVfq-pCZwAMm9QSS02g User [id=1, userid=admin, uname=Administrator, pwd=$2a$10$fckGxDzxRWRtXEUYukhTT.tEeMwWW0yPmKTJEMJKUTF5GJ4.Ylx/C, gender=null, address=null, phone=null, isadmin=true]
+2022-10-20 00:58:11,894 INFO exam.portal.controllers.UserController [http-nio-8080-exec-6] === Get user list ====
+2022-10-20 00:59:09,867 ERROR exam.portal.config.JwtTokenUtil [http-nio-8080-exec-7] JWT expired
+2022-10-20 00:59:31,744 INFO exam.portal.controllers.ExamController [http-nio-8080-exec-8]  === exam saved ===
+2022-10-20 00:59:52,207 INFO exam.portal.controllers.ExamController [http-nio-8080-exec-9]  === exam saved ===
+2022-10-20 01:01:29,469 ERROR exam.portal.config.JwtTokenUtil [http-nio-8080-exec-2] JWT expired
+2022-10-20 01:01:29,480 INFO exam.portal.controllers.UserController [http-nio-8080-exec-2] ==== validating user ====
+2022-10-20 01:01:29,626 INFO exam.portal.controllers.UserController [http-nio-8080-exec-2] auth done eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYW5zaUBnbWFpbC5jb20iLCJpc3MiOiJBZG1pbiIsInJvbGVzIjoiUk9MRV9VU0VSIiwiaWF0IjoxNjY2MjA3ODg5LCJleHAiOjE2NjYyOTQyODl9.Byx3Ws16kA5ogT7DRVoWQzaDQOFsoFGK4TskzXJ9R7yuBqja1t9p7hhC_j3V6YAy9AmPU_Bz6BfR0-M5ivOlIA User [id=2, userid=mansi@gmail.com, uname=Mansi Tiwari, pwd=$2a$10$82Ur83kuL.2GIXiUCY5O3OVTdrriaOhSkfF9FFCAvXrF5rqUDAL.q, gender=female, address=Khandwa, phone=6266840163, isadmin=false]
+2022-10-20 01:02:13,719 INFO exam.portal.controllers.ExamController [http-nio-8080-exec-3]  === list all user exams ===
+2022-10-20 01:04:56,065 INFO exam.portal.controllers.ExamController [http-nio-8080-exec-6]  === list all exam questions ===
+2022-10-20 01:05:02,532 INFO exam.portal.controllers.ExamController [http-nio-8080-exec-7]  === list all exam questions ===
+2022-10-20 01:10:31,838 ERROR exam.portal.config.JwtTokenUtil [http-nio-8080-exec-10] JWT expired
+2022-10-20 01:10:43,921 INFO exam.portal.controllers.ExamController [http-nio-8080-exec-1]  === exam submitted ===
+2022-10-20 01:10:44,097 INFO exam.portal.services.ExamService [http-nio-8080-exec-1]  qid 2 ans 3 uans 3
+2022-10-20 01:10:51,332 INFO exam.portal.controllers.ExamController [http-nio-8080-exec-2]  === list all user exams ===
+2022-10-20 01:11:37,993 ERROR exam.portal.config.JwtTokenUtil [http-nio-8080-exec-3] JWT expired
+2022-10-20 01:12:07,049 INFO exam.portal.controllers.ExamController [http-nio-8080-exec-4]  === list all exams ===
+2022-10-20 01:12:50,928 ERROR exam.portal.config.JwtTokenUtil [http-nio-8080-exec-5] JWT expired
+2022-10-20 01:13:01,882 INFO exam.portal.controllers.CategoryController [http-nio-8080-exec-6]  === updating category ===
+2022-10-20 01:13:20,757 INFO exam.portal.controllers.CategoryController [http-nio-8080-exec-7]  === list category ===
+2022-10-20 01:13:45,865 INFO exam.portal.controllers.CategoryController [http-nio-8080-exec-8]  === saving category ===
+2022-10-20 01:13:52,387 INFO exam.portal.controllers.CategoryController [http-nio-8080-exec-9]  === list category ===
+2022-10-20 01:14:42,746 ERROR exam.portal.config.JwtTokenUtil [http-nio-8080-exec-10] JWT expired
+2022-10-20 01:15:01,211 INFO exam.portal.controllers.QuestionController [http-nio-8080-exec-1]  === update Question details ===
+2022-10-20 01:15:09,321 INFO exam.portal.controllers.QuestionController [http-nio-8080-exec-2]  === list questions ===
+2022-10-20 01:15:30,093 INFO exam.portal.controllers.CategoryController [http-nio-8080-exec-3]  === list category ===
+2022-10-20 01:16:06,584 INFO exam.portal.controllers.QuestionController [http-nio-8080-exec-4]  === list questions ===
+2022-10-20 01:18:12,747 INFO exam.portal.controllers.QuestionController [http-nio-8080-exec-7]  === update Question details ===
+2022-10-20 01:18:17,898 INFO exam.portal.controllers.QuestionController [http-nio-8080-exec-8]  === list questions ===
+2022-10-20 01:19:18,363 INFO exam.portal.controllers.QuestionController [http-nio-8080-exec-9]  === delete Question ===
+2022-10-20 01:19:33,819 INFO exam.portal.controllers.QuestionController [http-nio-8080-exec-10]  === delete Question ===
+2022-10-20 01:19:33,977 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-10] SQL Error: 1451, SQLState: 23000
+2022-10-20 01:19:33,978 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-10] Cannot delete or update a parent row: a foreign key constraint fails (`examportal`.`examquiz`, CONSTRAINT `FKac6b9uwy4ofwfvr9o2owbf6jx` FOREIGN KEY (`question_id`) REFERENCES `question` (`id`))
+2022-10-20 01:19:33,981 INFO org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl [http-nio-8080-exec-10] HHH000010: On release of batch it still contained JDBC statements
+2022-10-20 01:21:23,450 INFO org.apache.catalina.core.StandardService [Thread-5] Stopping service [Tomcat]
+2022-10-20 01:21:23,522 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-20 01:21:23,643 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2022-10-20 01:21:23,659 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2022-10-20 01:21:23,924 INFO exam.portal.ExamPortalBackendApplication [restartedMain] Starting ExamPortalBackendApplication using Java 17.0.4.1 on DESKTOP-U572BMR with PID 37768 (C:\javaProject1\Exam-Portal-Backend\target\classes started by hp in C:\javaProject1\Exam-Portal-Backend)
+2022-10-20 01:21:23,924 INFO exam.portal.ExamPortalBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-20 01:21:24,617 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-10-20 01:21:24,617 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-20 01:21:25,312 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-20 01:21:25,392 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-20 01:21:25,401 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2022-10-20 01:21:25,468 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2022-10-20 01:21:25,469 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-20 01:21:25,786 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-20 01:21:26,613 INFO exam.portal.ExamPortalBackendApplication [restartedMain] Started ExamPortalBackendApplication in 2.808 seconds (JVM running for 3416.748)
+2022-10-20 01:21:51,325 INFO org.apache.catalina.core.StandardService [Thread-7] Stopping service [Tomcat]
+2022-10-20 01:21:51,333 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown initiated...
+2022-10-20 01:21:51,344 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown completed.
+2022-10-20 01:21:51,493 INFO exam.portal.ExamPortalBackendApplication [restartedMain] Starting ExamPortalBackendApplication using Java 17.0.4.1 on DESKTOP-U572BMR with PID 37768 (C:\javaProject1\Exam-Portal-Backend\target\classes started by hp in C:\javaProject1\Exam-Portal-Backend)
+2022-10-20 01:21:51,493 INFO exam.portal.ExamPortalBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-20 01:21:52,039 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-10-20 01:21:52,039 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-20 01:21:52,099 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-20 01:21:52,175 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-20 01:21:52,186 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2022-10-20 01:21:52,214 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2022-10-20 01:21:52,215 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-20 01:21:52,387 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-20 01:21:53,131 INFO exam.portal.ExamPortalBackendApplication [restartedMain] Started ExamPortalBackendApplication in 1.708 seconds (JVM running for 3443.265)
+2022-10-20 01:23:35,964 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(79)-127.0.0.1] Stopping service [Tomcat]
+2022-10-20 01:23:35,971 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(79)-127.0.0.1] HikariPool-3 - Shutdown initiated...
+2022-10-20 01:23:35,983 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(79)-127.0.0.1] HikariPool-3 - Shutdown completed.
+2022-10-20 10:06:41,721 INFO exam.portal.ExamPortalBackendApplication [restartedMain] Starting ExamPortalBackendApplication using Java 17.0.4.1 on DESKTOP-U572BMR with PID 64608 (C:\javaProject1\Exam-Portal-Backend\target\classes started by hp in C:\javaProject1\Exam-Portal-Backend)
+2022-10-20 10:06:41,748 INFO exam.portal.ExamPortalBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-20 10:06:59,108 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-10-20 10:06:59,108 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-20 10:06:59,918 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-20 10:07:01,478 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-20 10:07:03,238 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-20 10:07:05,984 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-20 10:07:07,993 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-10-20 10:07:10,068 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-10-20 10:07:10,824 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-20 10:07:21,190 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-20 10:07:25,398 INFO exam.portal.ExamPortalBackendApplication [restartedMain] Started ExamPortalBackendApplication in 51.785 seconds (JVM running for 55.964)
+2022-10-20 10:07:36,904 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-20 10:07:37,071 ERROR exam.portal.config.JwtTokenUtil [http-nio-8080-exec-1] JWT expired
+2022-10-20 10:07:37,399 INFO exam.portal.controllers.UserController [http-nio-8080-exec-1] ==== validating user ====
+2022-10-20 10:07:38,104 INFO exam.portal.controllers.UserController [http-nio-8080-exec-1] auth done eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlzcyI6IkFkbWluIiwicm9sZXMiOiJST0xFX0FETUlOIiwiaWF0IjoxNjY2MjQwNjU4LCJleHAiOjE2NjYzMjcwNTh9.7RviiZ1oagPMcAkL3FWK_CgboMScPEsZqhXUlXwzm5yLYd1xkQDaIQDdUMm2-6LhOW8o4pZQWdorpSXYmbNY5w User [id=1, userid=admin, uname=Administrator, pwd=$2a$10$fckGxDzxRWRtXEUYukhTT.tEeMwWW0yPmKTJEMJKUTF5GJ4.Ylx/C, gender=null, address=null, phone=null, isadmin=true]
+2022-10-20 10:08:51,984 INFO exam.portal.controllers.CategoryController [http-nio-8080-exec-5]  === saving category ===
+2022-10-20 10:08:59,210 INFO exam.portal.controllers.CategoryController [http-nio-8080-exec-6]  === list category ===
+2022-10-20 10:10:10,322 INFO exam.portal.controllers.QuestionController [http-nio-8080-exec-9]  === saving question ===
+2022-10-20 10:10:54,664 INFO exam.portal.controllers.QuestionController [http-nio-8080-exec-10]  === saving question ===
+2022-10-20 10:11:11,050 INFO exam.portal.controllers.QuestionController [http-nio-8080-exec-2]  === list questions ===
+2022-10-20 10:11:40,272 ERROR exam.portal.config.JwtTokenUtil [http-nio-8080-exec-1] JWT expired
+2022-10-20 10:12:50,595 ERROR exam.portal.config.JwtTokenUtil [http-nio-8080-exec-4] JWT expired
+2022-10-20 10:13:21,173 ERROR exam.portal.config.JwtTokenUtil [http-nio-8080-exec-5] JWT expired
+2022-10-20 10:13:21,181 INFO exam.portal.controllers.UserController [http-nio-8080-exec-5] ==== validating user ====
+2022-10-20 10:13:21,521 INFO exam.portal.controllers.UserController [http-nio-8080-exec-5] auth done eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYW5zaUBnbWFpbC5jb20iLCJpc3MiOiJBZG1pbiIsInJvbGVzIjoiUk9MRV9VU0VSIiwiaWF0IjoxNjY2MjQxMDAxLCJleHAiOjE2NjYzMjc0MDF9.n70epZkhgfKKxuI-vqAByUrEzEA1Gk5_EDgt0iFMoJ_Eb4Equ2BryE2VJfZ4Pz1PCM9sQeP-1eQZ14GZPVX29Q User [id=2, userid=mansi@gmail.com, uname=Mansi Tiwari, pwd=$2a$10$82Ur83kuL.2GIXiUCY5O3OVTdrriaOhSkfF9FFCAvXrF5rqUDAL.q, gender=female, address=Khandwa, phone=6266840163, isadmin=false]
+2022-10-20 10:13:44,496 INFO exam.portal.controllers.CategoryController [http-nio-8080-exec-6]  === list category ===
+2022-10-20 10:14:18,512 INFO exam.portal.controllers.ExamController [http-nio-8080-exec-7]  === exam saved ===
+2022-10-20 10:14:29,093 INFO exam.portal.controllers.ExamController [http-nio-8080-exec-8]  === list all user exams ===
+2022-10-20 10:15:18,933 INFO exam.portal.controllers.ExamController [http-nio-8080-exec-9]  === list all exam questions ===
+2022-10-20 10:16:34,716 INFO exam.portal.controllers.ExamController [http-nio-8080-exec-1]  === exam submitted ===
+2022-10-20 10:16:34,977 INFO exam.portal.services.ExamService [http-nio-8080-exec-1]  qid 4 ans 1 uans 1
+2022-10-20 10:16:43,170 ERROR exam.portal.config.JwtTokenUtil [http-nio-8080-exec-3] JWT expired
+2022-10-20 10:17:44,147 INFO exam.portal.controllers.ExamController [http-nio-8080-exec-6]  === list all exams ===
+2022-10-20 10:19:26,960 INFO exam.portal.controllers.ExamController [http-nio-8080-exec-9]  === exam submitted ===
+2022-10-20 10:19:27,111 INFO exam.portal.services.ExamService [http-nio-8080-exec-9]  qid 3 ans 2 uans 2
+2022-10-20 10:19:27,135 INFO exam.portal.services.ExamService [http-nio-8080-exec-9]  qid 4 ans 1 uans 1
+2022-10-20 10:20:06,918 INFO exam.portal.controllers.ExamController [http-nio-8080-exec-10]  === exam submitted ===
+2022-10-20 10:20:06,982 INFO exam.portal.services.ExamService [http-nio-8080-exec-10]  qid 3 ans 2 uans 2
+2022-10-20 10:21:52,213 INFO exam.portal.controllers.ExamController [http-nio-8080-exec-4]  === exam submitted ===
+2022-10-20 10:21:52,263 INFO exam.portal.services.ExamService [http-nio-8080-exec-4]  qid 3 ans 2 uans 2
+2022-10-20 10:33:23,955 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(37)-127.0.0.1] Stopping service [Tomcat]
+2022-10-20 10:33:23,959 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(37)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-20 10:33:23,994 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(37)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-10-20 10:33:24,028 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(37)-127.0.0.1] HikariPool-1 - Shutdown completed.
